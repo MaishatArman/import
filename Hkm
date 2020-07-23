@@ -4,7 +4,7 @@
 
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
-from mechanize import mechanize
+from mechanize import Browser
 
 
 reload(sys)
